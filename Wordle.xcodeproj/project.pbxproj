@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0DDF09282057C4005FF863 /* LetterBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DDF08282057C4005FF863 /* LetterBoxView.xib */; };
 		8B47B0942819DC21005BE05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47B0932819DC21005BE05E /* AppDelegate.swift */; };
 		8B47B0962819DC21005BE05E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47B0952819DC21005BE05E /* SceneDelegate.swift */; };
 		8B47B0982819DC21005BE05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47B0972819DC21005BE05E /* ViewController.swift */; };
@@ -15,9 +16,11 @@
 		8B47B0A02819DC23005BE05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B47B09E2819DC23005BE05E /* LaunchScreen.storyboard */; };
 		8B47B0AA2819DEED005BE05E /* LetterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47B0A92819DEED005BE05E /* LetterBox.swift */; };
 		8B47B0AD2819E09E005BE05E /* LetterEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47B0AC2819E09E005BE05E /* LetterEvaluation.swift */; };
+		8B47B0B22819E291005BE05E /* LetterBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47B0B12819E291005BE05E /* LetterBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B0DDF08282057C4005FF863 /* LetterBoxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LetterBoxView.xib; sourceTree = "<group>"; };
 		8B47B0902819DC21005BE05E /* Wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B47B0932819DC21005BE05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B47B0952819DC21005BE05E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		8B47B0A12819DC23005BE05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B47B0A92819DEED005BE05E /* LetterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterBox.swift; sourceTree = "<group>"; };
 		8B47B0AC2819E09E005BE05E /* LetterEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterEvaluation.swift; sourceTree = "<group>"; };
+		8B47B0B12819E291005BE05E /* LetterBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				8B47B0A82819DED9005BE05E /* Models */,
+				8B47B0AF2819E20B005BE05E /* Views */,
 				8B47B0932819DC21005BE05E /* AppDelegate.swift */,
 				8B47B0952819DC21005BE05E /* SceneDelegate.swift */,
 				8B47B0972819DC21005BE05E /* ViewController.swift */,
@@ -87,6 +92,23 @@
 				8B47B0AC2819E09E005BE05E /* LetterEvaluation.swift */,
 			);
 			path = Letter;
+			sourceTree = "<group>";
+		};
+		8B47B0AF2819E20B005BE05E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B47B0B02819E233005BE05E /* LetterBox */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B47B0B02819E233005BE05E /* LetterBox */ = {
+			isa = PBXGroup;
+			children = (
+				8B47B0B12819E291005BE05E /* LetterBoxView.swift */,
+				8B0DDF08282057C4005FF863 /* LetterBoxView.xib */,
+			);
+			path = LetterBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +171,7 @@
 			files = (
 				8B47B0A02819DC23005BE05E /* LaunchScreen.storyboard in Resources */,
 				8B47B09D2819DC23005BE05E /* Assets.xcassets in Resources */,
+				8B0DDF09282057C4005FF863 /* LetterBoxView.xib in Resources */,
 				8B47B09B2819DC21005BE05E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +185,7 @@
 			files = (
 				8B47B0982819DC21005BE05E /* ViewController.swift in Sources */,
 				8B47B0942819DC21005BE05E /* AppDelegate.swift in Sources */,
+				8B47B0B22819E291005BE05E /* LetterBoxView.swift in Sources */,
 				8B47B0962819DC21005BE05E /* SceneDelegate.swift in Sources */,
 				8B47B0AA2819DEED005BE05E /* LetterBox.swift in Sources */,
 				8B47B0AD2819E09E005BE05E /* LetterEvaluation.swift in Sources */,
